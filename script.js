@@ -9,7 +9,8 @@ document.getElementById("dataForm").addEventListener("submit", function(event) {
   formData.append("mobile", mobile);
 // v1: https://script.google.com/macros/s/AKfycbzdj4N3NcdWZzdJ4iVHe70EYxSFQeeAVaDjsecR5QyroupeaE-8PlWTAUd1OVartlchUA/exec
 // v2: https://script.google.com/macros/s/AKfycby1XQiTioxfefJGywBww0ELzMgedVWTfdub81NkkZulTaY4NktQcLdH1TJjtelu_HGeBA/exec
-  fetch("https://script.google.com/macros/s/AKfycby1XQiTioxfefJGywBww0ELzMgedVWTfdub81NkkZulTaY4NktQcLdH1TJjtelu_HGeBA/exec", {
+  var url = "https://script.google.com/macros/s/AKfycby1XQiTioxfefJGywBww0ELzMgedVWTfdub81NkkZulTaY4NktQcLdH1TJjtelu_HGeBA/exec";
+  fetch(url, {
     method: "POST",
     body: formData
   })
