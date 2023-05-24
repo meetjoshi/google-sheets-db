@@ -1,2 +1,2 @@
 # google-sheets-db
-Storing values in hosted form to Google Sheets
+Storing values from hosted form to Google Sheets
